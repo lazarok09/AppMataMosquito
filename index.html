@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- Customized stylesheet-->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <!-- JavaScript -->
+    <script>
+      /* ---------- função iniciar o jogo -------------------- */
+      // faz referencia imediata ao onclick no button de ''iniciar o jogo'''
+      function iniciarJogo() {
+        var nivel = document.getElementById("nivel").value;
+
+        if (nivel === "") {
+          alert("selecione um nivel ");
+          return;
+        }
+        window.location.href = "app.html?" + nivel;
+
+        // window.location.href = "app.html";
+      }
+      function popSobre() {
+        // salvar o método window numa variável
+        return (janela = window.open(
+          "sobre.html",
+          "página sobre",
+          "height=559, width=400, top=300"
+        ));
+      }
+    </script>
+    <title>Bem vindo ao Mata Mosquito</title>
+    <link rel="icon" href="imagens/AedesAegypti.png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- linha coluna e centralização-->
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <img src="imagens/game.png" />
+          </div>
+        </div>
+      </div>
+      <!-- seleção de dificuldade-->
+      <div class="row mb-2">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <select class="form-control" id="nivel">
+                <option value="">Selecionar o nível</option>
+                <option value="normal">Normal</option>
+                <option value="dificil">Difícil</option>
+                <option value="chuckNorris">Chuck Norris</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fim seleção dificuldade-->
+      <!-- Botão iniciar jogo e sobre-->
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <button onclick="iniciarJogo()" class="btn btn-danger btn-md">
+              iniciar jogo
+            </button>
+            <button onclick="popSobre()" class="btn btn-info btn-sm">
+              Sobre
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- fim botão iniciar jogo e sobre-->
+      <!-- fim container-->
+    </div>
+  </body>
+</html>

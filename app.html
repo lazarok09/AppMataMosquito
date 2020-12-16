@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- JavaScript -->
+    <script src="scripts/backend.js"></script>
+    <!-- Customized stylesheet-->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <title>App Mata mosquito</title>
+    <link rel="icon" href="imagens/AedesAegypti.png">
+  </head>
+  <body onresize="ajustaTamanhoPalcoJogo()">
+    <!-- painel e vidas-->
+    <div class="painel">
+        
+      <div class="vidas">
+        <img id="v1" src="imagens/coracao_cheio.png">
+        <img id="v2" src="imagens/coracao_cheio.png">
+        <img id="v3" src="imagens/coracao_cheio.png">
+      </div>
+    <!-- fim painel e vidas -->
+    <!-- cronometro-->
+      <div class="cronometro">
+        Tempo restante: <span id="cronometro"></span>
+        Pontos: <span id="pontos"></span>
+      </div>
+    <!-- frim cronometro-->
+    </div>
+    <!-- fim painel e vidas-->
+    
+    <!-- script-->
+    <script>
+      /* --------------incluir o tempo de forma dinâmica-------------------- */
+      document.getElementById('cronometro').innerHTML = tempo
+      
+      /* Para chamar o método posição randomica de tempos em tempos será utilizado o método
+       de setInterval(function ) */
+      var criaMosquito = setInterval( function() {
+        posicaoRandomica()
+      }, criaMosquitoTempo)
+    </script>
+  </body>
+</html>
