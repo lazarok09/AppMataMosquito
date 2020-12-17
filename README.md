@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Aplicativo Mata Mosquito
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/lazarok09/AppMataMosquito/blob/main/LICENSE) 
 
 # Sobre o projeto
