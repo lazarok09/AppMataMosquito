@@ -21,7 +21,7 @@ A aplicação consiste em uma "raquete" personalizada que usa o cursor do mouse 
 
 ## Página do jogo
 ![Inicio(index.html)](https://github.com/lazarok09/AppMataMosquito/blob/main/imagens/Tela1doJogo.png)
-## Tela iniciar jogo
+## Vidas e pontos
 ![Ao clicar iniciar jogo (app.html)](https://github.com/lazarok09/AppMataMosquito/blob/main/imagens/Tela2App-doJogo.png)
 ## Tela venceu
 ![Quando vence(vitoria.html)](https://github.com/lazarok09/AppMataMosquito/blob/main/imagens/Tela3Venceu-doJogo.png)
