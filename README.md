@@ -46,7 +46,7 @@ A aplicação consiste em uma "raquete" personalizada que usa o cursor do mouse 
 Lazaro Jose da Silva de Souza
 Estudante de Análise e Desenvolvimento de Sistemas pela UNINABUCO na modalidade EAD
 Entusiasta na arte de aprender algo do zero
-https://www.linkedin.com/in/lazaro-souza-1552901a9/
+https://www.linkedin.com/in/lazarok09
 ## aprenda a usar o [markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open) no seu GitHub
 
 
