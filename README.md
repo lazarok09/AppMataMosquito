@@ -1,5 +1,12 @@
-# Aplicativo Mata Mosquito
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lazarok09/AppMataMosquito/blob/main/LICENSE) 
+<h1 align="center">
+ Aplicativo Mata Mosquito
+</h1>
+
+<span align=center>
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lazarok09/AppMataMosquito/blob/main/LICENSE)
+
+</span>
 
 # Sobre o projeto
 
